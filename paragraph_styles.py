@@ -10,11 +10,15 @@ pdfmetrics.registerFont(TTFont('times_i', 'timesi.ttf'))
 f_s = 12
 ldng = int(f_s*1.2)
 
-s_c_t = ParagraphStyle('центр', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceAfter=10, leading=20)
-s_c_t_b = ParagraphStyle('центр', fontName='times_bold', fontSize=f_s, alignment=TA_CENTER, spaceAfter=10, leading=20)
+s_c_t = ParagraphStyle('центр', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceAfter=10, leading=ldng)
+s_c_t_b = ParagraphStyle('центр', fontName='times_bold', fontSize=f_s, alignment=TA_CENTER, spaceAfter=10, leading=ldng)
+st_c_5_5 = ParagraphStyle('центр 5 5', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceBefore=5,
+                         spaceAfter=5, leading=ldng)
+st_c_5_0 = ParagraphStyle('центр 5 0', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceBefore=5,
+                         spaceAfter=5, leading=ldng)
 s_l = ParagraphStyle('центр', fontName="times", fontSize=f_s, alignment=TA_LEFT, spaceAfter=10, leading=ldng)
-s_m = ParagraphStyle('основной', fontName="times", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=2, leading=ldng)
-# s_r = ParagraphStyle('по правому', fontName="times", fontSize=f_s, alignment=TA_RIGHT)
+st_m = ParagraphStyle('основной', fontName="times", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=2, leading=ldng)
+s_r = ParagraphStyle('по правому', fontName="times", fontSize=f_s, alignment=TA_RIGHT, spaceAfter=5)
 s_f_30 = ParagraphStyle('формула 30', fontName="times", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=30,
                         spaceBefore=15,  leading=ldng)
 s_f_10 = ParagraphStyle('формула 10', fontName="times", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=10,
@@ -44,7 +48,7 @@ s_f = ParagraphStyle('заголовок формулы', fontName="times", font
 st_b_20_5 = ParagraphStyle('ст 2', fontName='times_bold', fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=20,
                            spaceAfter=5, leading=ldng)
 
-s_b = ParagraphStyle('жирный', fontName="times_bold", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=2, leading=ldng)
+st_b = ParagraphStyle('жирный', fontName="times_bold", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=2, leading=ldng)
 st_b_5_0 = ParagraphStyle('жирный', fontName="times_bold", fontSize=f_s, alignment=TA_JUSTIFY, spaceBefpre=5,
                           spaceAfter=3, leading=ldng)
 s_c_b = ParagraphStyle('центр жирный', fontName="times_bold", fontSize=f_s, alignment=TA_CENTER, spaceAfter=3,
