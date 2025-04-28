@@ -14,7 +14,7 @@ t_l = SimpleDocTemplate(
 mn = Paragraph('Министерство науки и высшего образования Российской Федерации ', style=s_c_t)
 t_u = Paragraph('Федеральное государственное бюджетное образовательное учреждение высшего образования', style=s_c_t)
 un = Paragraph('Новосибирский государственный технический университет', style=s_c_t)
-kaf = Paragraph('Кафедра ЭлСт', style=s_c_t)
+kaf = Paragraph('Кафедра АЭЭС', style=s_c_t)
 # s_2 = Spacer(0, 2*cm)
 # s_3 = Spacer(0, 3*cm)
 # s_5 = Spacer(0, 5*cm)

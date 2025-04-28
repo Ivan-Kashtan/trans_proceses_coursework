@@ -26,10 +26,10 @@ x0_s = sum(x)
 # print(3 * g1['s'])
 
 # print(g1['s'])
-print(x[2:])
+# print(x[2:])
 
-print(u_g_r)
-print(s_g_r)
+# print(u_g_r)
+# print(s_g_r)
 
 # print(3 * g1['p'] + g2['p'])
 # print(3 * g1['q'] + g2['q'])

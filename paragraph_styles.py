@@ -14,6 +14,10 @@ s_c_t = ParagraphStyle('центр', fontName='times', fontSize=f_s, alignment=T
 s_c_t_b = ParagraphStyle('центр', fontName='times_bold', fontSize=f_s, alignment=TA_CENTER, spaceAfter=10, leading=ldng)
 st_c_5_5 = ParagraphStyle('центр 5 5', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceBefore=5,
                          spaceAfter=5, leading=ldng)
+st_c_5_20 = ParagraphStyle('центр 5 20', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceBefore=5,
+                         spaceAfter=20, leading=ldng)
+st_c_5_10 = ParagraphStyle('центр 5 20', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceBefore=5,
+                         spaceAfter=10, leading=ldng)
 st_c_5_0 = ParagraphStyle('центр 5 0', fontName='times', fontSize=f_s, alignment=TA_CENTER, spaceBefore=5,
                          spaceAfter=5, leading=ldng)
 s_l = ParagraphStyle('центр', fontName="times", fontSize=f_s, alignment=TA_LEFT, spaceAfter=10, leading=ldng)
@@ -29,6 +33,8 @@ st_0_20 = ParagraphStyle('формула 20', fontName="times", fontSize=f_s, al
                         leading=ldng)
 st_0_10 = ParagraphStyle('формула 10', fontName="times", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=10,
                         leading=ldng)
+st_10_10 = ParagraphStyle('10 10', fontName="times", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=10,
+                          spaceBefore=5, leading=ldng)
 st_0_25 = ParagraphStyle('формула 25', fontName='times', fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=25,
                          leading=ldng)
 st_20_5 = ParagraphStyle('ст 2', fontName='times', fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=20,
@@ -51,11 +57,10 @@ st_b_20_5 = ParagraphStyle('ст 2', fontName='times_bold', fontSize=f_s, alignm
 st_b = ParagraphStyle('жирный', fontName="times_bold", fontSize=f_s, alignment=TA_JUSTIFY, spaceAfter=2, leading=ldng)
 st_b_5_0 = ParagraphStyle('жирный', fontName="times_bold", fontSize=f_s, alignment=TA_JUSTIFY, spaceBefpre=5,
                           spaceAfter=3, leading=ldng)
-s_c_b = ParagraphStyle('центр жирный', fontName="times_bold", fontSize=f_s, alignment=TA_CENTER, spaceAfter=3,
+st_c_b = ParagraphStyle('центр жирный', fontName="times_bold", fontSize=f_s, alignment=TA_CENTER, spaceAfter=3,
                        spaceBefore=5, leading=ldng)
 st_b_10_2 = ParagraphStyle('ст 15 5 ', fontName='times_bold', fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=10,
                            spaceAfter=2, leading=ldng)
-
 st_i_0_3 = ParagraphStyle('ст 5 5 i', fontName="times_i", fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=5,
                          spaceAfter=5, leading=ldng)
 st_i_15_2 = ParagraphStyle('ст 15 5 i', fontName="times_i", fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=15,
@@ -64,4 +69,8 @@ st_i_5_5 = ParagraphStyle('ст 5 5 i', fontName="times_i", fontSize=f_s, alignm
                          spaceAfter=5, leading=ldng)
 st_i_10_5 = ParagraphStyle('ст 5 5 i', fontName="times_i", fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=5,
                          spaceAfter=5, leading=ldng)
+st_i_5_10 = ParagraphStyle('ст 5 5 i', fontName="times_i", fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=5,
+                         spaceAfter=5, leading=ldng)
+st_i_5_20 = ParagraphStyle('ст 5 20 i', fontName="times_i", fontSize=f_s, alignment=TA_JUSTIFY, spaceBefore=5,
+                         spaceAfter=20, leading=ldng)
 # leading - межстрочный интервал

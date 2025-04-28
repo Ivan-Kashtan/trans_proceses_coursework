@@ -10,4 +10,4 @@ x_d = x2_s*x0_s / (x2_s + x0_s)
 i1 = e_s / (x1_s + x_d)
 i = m * i1
 
-print(i)
+# print(i)
