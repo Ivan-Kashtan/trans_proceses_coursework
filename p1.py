@@ -10,10 +10,11 @@ p_ld = s_ld * cos_phi
 q_ld = s_ld * (1 - cos_phi**2)**(1/2)
 
 g1['s'] = sqrt(g1['q']**2 + g1['p']**2)
-g2['s'] = sqrt(g2['q']**2 + g2['p']**2)
+# g2['s'] = sqrt(g2['q']**2 + g2['p']**2)
 
 g1['sin'] = sqrt(1 - g1['cos']**2)
 g2['sin'] = sqrt(1 - g2['cos']**2)
+g2['q'] = g2['sin'] * g2['p']
 
 s_b = 125
 u_b = array([230, 10.5, 10.5])
@@ -30,7 +31,6 @@ x_d__ = array([g1['x_d__'], g2['x_d__']])/100
 e = sqrt((u_g_r + q_g_r * x_d__ / u_g_r)**2 + (p_g_r * x_d__ / u_g_r)**2)
 e[0] *= n_g1
 e_ld = 0.85 * u_ld / u_b[0]
-
 
 x = empty(6)
 x[0] = x_d__[0] * s_g_r[0] / 3  # g1
